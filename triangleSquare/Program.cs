@@ -12,8 +12,8 @@ namespace triangleSquare
             p = Double.Parse(Console.ReadLine()) / 2;
             a = 2* p / 3;
             S = Math.Sqrt(p * (p - a) * (p - a) * (p - a));
-            Console.WriteLine("Side   Square");
-            Console.WriteLine("{0}   {1}", a, S);
+            Console.WriteLine("Side \t Square");
+            Console.WriteLine("{0,-4:N2} \t {1,6:N2}", a, S);
         }
     }
 }
